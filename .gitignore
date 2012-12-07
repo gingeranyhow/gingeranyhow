@@ -1,0 +1,3 @@
+_drafts/  //prevent jekyll from parsing draft posts
+_site/    //these are the generated html files
+DS_Store* //on a mac
