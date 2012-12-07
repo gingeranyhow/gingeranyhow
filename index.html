@@ -1,0 +1,86 @@
+---
+layout: default
+title: Ginger Anyhow
+with_subtitle: true
+---
+<div class="row">
+  {% for post in site.categories.row1 %}
+  <div class="grid_4">
+    <div class="lowlight_text">
+      <a href="{{ post.url }}">
+        <img class="project-image" src="{{ post.image }}" width="300" height ="200">
+        <h2 class="project_title">{{ post.title }}</h2>
+      </a>
+      <ul class="simple-tag">
+        {% for tag in post.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <!-- end .grid_4 -->
+  {% endfor %}
+  <div class="clear"></div> 
+</div>
+<!-- end row -->
+
+<div class="row">
+  {% for post in site.categories.row2 %}
+  <div class="grid_3">
+    <div class="lowlight_text">
+      <a href="{{ post.url }}">
+        <img class="project-image" src="{{ post.image }}" width="220" height="146">
+        <h2 class="project_title">{{ post.title }}</h2>
+      </a>
+      <ul class="simple-tag">
+        {% for tag in post.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <!-- end .grid_3 -->
+  {% endfor %}
+  <div class="clear"></div>
+</div>
+<!-- end row -->
+
+<div class="row first-row">
+  {% for post in site.categories.row3 %}
+  <div class="grid_3">
+    <div class="lowlight_text">
+      <a href="{{ post.url }}">
+        <img class="project-image" src="{{ post.image }}" width="220" height="146">
+        <h2 class="project_title">{{ post.title }}</h2>
+      </a>
+      <ul class="simple-tag">
+        {% for tag in post.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <!-- end .grid_3 -->
+  {% endfor %}
+  <div class="clear"></div>
+</div>
+<!-- 
+ <div class="row">
+  {% for post in site.categories.row4 %}
+  <div class="grid_3">
+    <div class="lowlight_text">
+      <a href="{{ post.url }}">
+        <img class="project-image" src="{{ post.image }}" width="220" height="146">
+        <h2 class="project_title">{{ post.title }}</h2>
+      </a>
+      <ul class="simple-tag">
+        {% for tag in post.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  {% endfor %}
+  <div class="clear"></div>
+</div> --->

@@ -1,0 +1,26 @@
+---
+layout: default
+with_subtitle: false
+---
+
+<div class="grid_12">
+  <h2 class="project_title">{{ page.title }}</h2>
+  <div class="longer-expl">
+    {{ content }}
+
+  </div>
+</div>
+
+<div class="grid_12">
+  <div class="lowlight_text">
+    <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="900" height="900">
+    <param name="src" value="{{ page.video_1 }}">
+    <param name="autoplay" value="false">
+    <param name="type" value="video/quicktime"  width="900" height="900">
+    <embed src="{{ page.video_1 }}"  width="900" height="900" scale="aspect" autoplay="false" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/">
+  </object>
+
+  </div>
+</div>
+<!-- end .grid_4 -->
+

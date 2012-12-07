@@ -1,0 +1,71 @@
+---
+layout: default
+with_subtitle: false
+---
+
+<div class="grid_4">
+  <h2 class="project_title">{{ page.title }}</h2>
+  <div class="longer-expl">
+    {{ content }}
+    {{ page.caption_1 }}
+    
+  </div>
+</div>
+
+<div class="grid_8">
+  <div class="lowlight_text">
+   	<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="480" height="360">
+		<param name="src" value="{{ page.video_1 }}">
+		<param name="autoplay" value="false">
+		<param name="type" value="video/quicktime"  width="600" height="400">
+		<embed src="{{ page.video_1 }}" width="600" height="400" scale="aspect" autoplay="false" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/">
+	</object>
+
+  </div>
+</div>
+<!-- end .grid_4 -->
+
+{% if page.video_2 %}
+<div class="grid_4">
+  <div class="longer-expl">
+    {{ page.caption_2 }}
+    
+  </div>
+</div>
+
+<div class="grid_8">
+  <div class="lowlight_text">
+    <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="600" height="400">
+    <param name="src" value="{{ page.caption_2 }}">
+    <param name="autoplay" value="false">
+    <param name="type" value="video/quicktime"  wwidth="600" height="400">
+    <embed src="{{ page.video_2 }}" width="600" height="400" scale="aspect" autoplay="false" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/">
+  </object>
+
+  </div>
+</div>
+<!-- end .grid_4 -->
+{% endif %}
+
+{% if page.video_3 %}
+<div class="grid_4">
+  <div class="longer-expl">
+    {{ page.caption_3 }}
+    
+  </div>
+</div>
+
+<div class="grid_8">
+  <div class="lowlight_text">
+    <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab" width="600" height="400">
+    <param name="src" value="{{ page.caption_3 }}">
+    <param name="autoplay" value="false">
+    <param name="type" value="video/quicktime"  width="600" height="400">
+    <embed src="{{ page.video_3 }}" width="600" height="400" scale="aspect" autoplay="false" type="video/quicktime" pluginspage="http://www.apple.com/quicktime/download/">
+  </object>
+
+  </div>
+</div>
+<!-- end .grid_4 -->
+
+{% endif %}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Ginger Anyhow </title>
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/text.css" />
+  <link rel="stylesheet" href="/css/960.css" />
+  <link rel="stylesheet" href="/css/custom.css" />
+  <script type="text/javascript" src="//use.typekit.net/dvs7ogg.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="intro-div">
+        <a href="/" alt="home">
+          <img class="logo" src="/img/logo_ginger_anyhow.png" alt="Ginger Anyhow" width="475" height="80">
+        </a>
+          {% if page.with_subtitle %} 
+          <span class="blocked">C. Ginger lives in San Francisco, CA. Here's how she spends her time.</span>
+          <span class="blocked">Gmail her at gingeranyhow@</span>
+          {% endif %}
+      </div>
+    </div>
+    <!-- end .grid_12 -->
+    
+    <div class="clear"></div>
+    {{ content }}
+    
+  </div>
+  <!-- end .container_12 -->
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5303419-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+</body>
+</html>
