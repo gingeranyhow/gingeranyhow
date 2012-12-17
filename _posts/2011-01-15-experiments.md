@@ -1,13 +1,13 @@
 ---
 layout: custom_project
-image: /img/projects/experiment.jpg
+image: http://d1fncl8kljq1cg.cloudfront.net/img/projects/experiment.jpg
 title: Small Experiments
 tags: ['photography', 'reenactment']
 categories : [projects, row3]
 
-image-1: /img/projects/photobooth.jpg
+image-1: http://d1fncl8kljq1cg.cloudfront.net/img/projects/photobooth.jpg
 caption-1: Photoboot Safari
-image-2: /img/projects/sprinters.gif
+image-2: http://d1fncl8kljq1cg.cloudfront.net/img/projects/sprinters.gif
 caption-2: Sprinters
 ---
 

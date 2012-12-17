@@ -1,5 +1,5 @@
-_drafts/  //prevent jekyll from parsing draft posts
-_site/    //these are the generated html files
-video/    //don't add video files
-img/    //don't add image files
-DS_Store* //on a mac
+_drafts/
+_site/
+video/
+img/
+.DS_Store*

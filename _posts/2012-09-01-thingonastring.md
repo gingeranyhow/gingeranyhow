@@ -1,6 +1,6 @@
 ---
 layout: project_page
-image: /img/projects/thing-on-a-string.jpg
+image: http://d1fncl8kljq1cg.cloudfront.net/img/projects/thing-on-a-string.jpg
 title: Thing on a String
 order: 3
 tags: ['film']

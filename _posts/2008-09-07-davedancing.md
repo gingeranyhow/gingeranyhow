@@ -1,6 +1,6 @@
 ---
 layout: custom_project
-image: /img/projects/davedancing.jpg
+image: http://d1fncl8kljq1cg.cloudfront.net/img/projects/davedancing.jpg
 title: Youtube Video
 categories : [projects, row3]
 youtube_id: pVm_HJ_ax8o
@@ -10,7 +10,7 @@ tags: ['video', 'reenactment']
 <div class="grid_4">
   <h2 class="project_title">{{ page.title }}</h2>
   <div class="longer-expl">
-    A reenactment of a Youtube Video. See this post at Rhizome for context.
+    A reenactment of a Youtube Video. 
   </div>
 </div>
 

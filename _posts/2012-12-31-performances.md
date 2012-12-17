@@ -1,6 +1,6 @@
 ---
 layout: project_page
-image: /img/projects/NEED.jpg
+image: http://d1fncl8kljq1cg.cloudfront.net/img/projects/NEED.jpg
 title: Performances, 2010-2012
 order: 3
 tags: ['performance']

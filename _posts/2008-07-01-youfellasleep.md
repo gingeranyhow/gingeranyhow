@@ -1,6 +1,6 @@
 ---
 layout: project_page
-image: /img/projects/fellasleep.png
+image: http://d1fncl8kljq1cg.cloudfront.net/img/projects/fellasleep.png
 title: You Fell Asleep Watching a DVD
 categories: [projects, row1]
 tags: ['website', 'sketchup']
