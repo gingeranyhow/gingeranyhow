@@ -2,4 +2,5 @@ _drafts/
 _site/
 video/
 img/
+css/.sass-cache/
 .DS_Store*

@@ -1,0 +1,133 @@
+h1 {
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center; }
+
+h2 {
+  font-family: helvetica;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 600; }
+
+h3 {
+  font-size: 21px; }
+
+h4 {
+  font-size: 19px; }
+
+h5 {
+  font-size: 17px; }
+
+h6 {
+  font-size: 15px; }
+
+ol {
+  list-style: decimal; }
+
+ul {
+  list-style: disc; }
+
+li {
+  margin-left: 30px; }
+
+body {
+  color: #5B5D68;
+  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-size: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  font-family: "ff-tisa-web-pro",serif;
+  font-size: 16px; }
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace; }
+
+hr {
+  border: 0 #cccccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0; }
+
+a {
+  text-decoration: none;
+  color: #4698B3; }
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px; }
+
+.container_12 {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px; }
+
+.grid_3, .grid_4, .grid_8, .grid_6, .grid_12 {
+  margin-bottom: 30px;
+  margin-top: 45px; }
+
+.intro-div {
+  margin-bottom: -25px;
+  font-size: 110%;
+  color: #788A9B;
+  font-style: italic;
+  text-alight: left;
+  padding-top: 30px; }
+
+.logo {
+  display: block;
+  padding: 0px 0px 4px 0px; }
+
+.blocked {
+  display: block; }
+
+.row {
+  border-bottom: double rgba(117, 161, 169, 0.46) 1px; }
+
+.longer-expl {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.project-image {
+  padding-bottom: 10px; }
+
+.project_title {
+  margin-bottom: 0px;
+  line-height: 1.3em;
+  color: #597971; }
+
+.labels {
+  padding-bottom: 0;
+  padding-top: 10px; }
+
+.tag a:hover {
+  text-decoration: none; }
+
+ul.simple-tag {
+  margin: 0; }
+  ul.simple-tag li {
+    font-style: italic;
+    color: #788A9B;
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0; }
+    ul.simple-tag li:after {
+      content: ", "; }
+    ul.simple-tag li:last-child:after {
+      content: ""; }
